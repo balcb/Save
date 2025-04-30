@@ -17,10 +17,10 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = os.getenv("20097130", "")
-API_HASH = os.getenv("1cec77ed8878559fcc6c65d3fe1545e7", "")
-BOT_TOKEN = os.getenv("7836035217:AAHCPMjbBPGUA0dOxTQ1OH06BrO-ZjtH6Vw", "")
-MONGO_DB = os.getenv("mongodb+srv://kamababa947:Y9UVM2VXsZweg5jY@cluster0.1ozdxmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "")
+API_ID = os.getenv("20097130", "20097130")
+API_HASH = os.getenv("1cec77ed8878559fcc6c65d3fe1545e7", "1cec77ed8878559fcc6c65d3fe1545e7")
+BOT_TOKEN = os.getenv("7836035217:AAHCPMjbBPGUA0dOxTQ1OH06BrO-ZjtH6Vw", "7836035217:AAHCPMjbBPGUA0dOxTQ1OH06BrO-ZjtH6Vw")
+MONGO_DB = os.getenv("mongodb+srv://kamababa947:Y9UVM2VXsZweg5jY@cluster0.1ozdxmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "mongodb+srv://kamababa947:Y9UVM2VXsZweg5jY@cluster0.1ozdxmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = list(map(int, os.getenv("6171256406", "").split())) # list seperated via space
 DB_NAME = os.getenv("save-bot", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
